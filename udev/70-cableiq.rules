@@ -1,0 +1,3 @@
+# Fluke Networks CableIQ (USB 0f7e:0003): user access without root.
+# Installation: README.md
+SUBSYSTEM=="usb", ATTR{idVendor}=="0f7e", ATTR{idProduct}=="0003", TAG+="uaccess"
